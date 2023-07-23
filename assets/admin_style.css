@@ -1,0 +1,162 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 30, 2021, 10:55:09 PM
+    Author     : M Bilal
+*/
+#menu-posts-popups .wp-menu-image img{
+    width: 68%;
+    padding: 0px !important;
+}
+#ms-wrp_select_pages.ms-container div.ms-selectable,
+#ms-wrp_select_pages.ms-container div.ms-selection{
+    display: block;
+    width: 25%;
+    min-width: 150px;
+    float: left;
+    max-width: 500px;
+    background: #fff;
+    margin-right: 20px;
+    border: 1px solid #979696;
+    border-radius: 4px;
+}
+#ms-wrp_select_pages.ms-container div .ms-list{
+    height: 200px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    padding: 10px 20px;
+    margin: 0px;
+}
+#ms-wrp_select_pages.ms-container div .ms-list li{
+    background: #e3e3e3;
+    padding: 3px 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#ms-wrp_select_pages.ms-container div .ms-list li:hover{
+    background: #d7d7d7;
+}
+.wrp_selection_list_headers{
+    text-align: center;
+    padding: 10px;
+    background: #686868;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+}
+.wrp_select_list_header{
+    margin-bottom: 20px ;
+}
+.wrp_select_list_header a,
+.wrp_btn{
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    color: #000;
+    margin-right: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.wrp_select_list_header a:hover,
+.wrp_btn:hover{
+    border: 1px solid #000;
+    color: #fff;
+    background: #000;
+}
+
+.sp-container {
+    z-index: 999 !important;
+}
+li#menu-posts-popups .wp-menu-image > img{
+    width: 23px !important;
+    height: 23px !important;
+    background: #fff !important;
+    padding: 7px 2px !important;
+    border-radius: 4px !important;
+}
+.wrp_color_picker_flat + .sp-replacer .sp-dd{
+    font-size: 0px !important;
+    padding: 5px 10px 5px 0 !important;
+}
+.wrp_color_picker_flat + .sp-replacer .sp-dd:after{
+    content: 'Select Color';
+    font-size: 16px !important;
+}
+.wrp_color_picker_flat + .sp-replacer{
+    padding: 0px !important;
+    border-radius: 5px !important;
+    border-color: #b1aeae !important;
+    background: #fff;
+}
+.wrp_color_picker_flat + .sp-replacer .sp-preview{
+    height: 26px !important;
+    border: none !important;
+}
+.sp-container.sp-light {
+    background: #ffffff;
+    border-color: #ccc;
+    border-radius: 5px;
+}
+
+.wrp_radio_checkox_style{
+    appearance: none !important;
+    border: 1px solid #d3d3d3 !important;
+    width: 30px !important;
+    height: 30px !important;
+    content: none !important;
+    outline: none !important;
+    margin-left: calc(50% - 30px) !important;
+    margin-bottom: 20px !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+    border-radius: 0px !important;
+    position: relative;
+}
+
+.wrp_radio_checkox_style:checked {
+    appearance: none !important;
+    outline: none !important;
+    padding: 0 !important;
+    content: none !important;
+    border: none !important;
+}
+.wrp_radio_checkox_style:checked::before{
+    display: none !important;
+}
+
+.wrp_radio_checkox_style:checked::after{
+    position: absolute !important;
+    color: green !important;
+    content: "\00A0\2713\00A0" !important;
+    border: 1px solid #d3d3d3 !important;
+    font-weight: bolder !important;
+    font-size: 22px !important;
+    left: 0;
+    top: 20%;
+    border: none !important;
+}
+.wrp_clearfix{
+    clear: both;
+}
+.wrp_select_popup_templates_section div{
+    /*width: calc(100% / 2 - 20px);*/
+    margin: 10px;
+    float: left;
+}
+.wrp_select_popup_templates_section{
+    width: 100%;
+    min-width: 500px;
+    max-width: 700px;
+    background-color: #fff !important;
+    padding: 20px;
+    display: flex;
+}
+.wrp_main_popup_admin_area{
+    display: none !important;
+}
+#wrp_copy_shortcode{
+    cursor: pointer;
+}

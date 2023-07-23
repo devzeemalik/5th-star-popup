@@ -1,0 +1,1 @@
+it's a full plugin example. You could install this plugin. zip the this folder and install install it on any WordPress
